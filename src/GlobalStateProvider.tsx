@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, ReactNode } from 'react';
 
 interface IGlobal {
 	globalData: {[key: string]: any};
@@ -7,7 +7,7 @@ interface IGlobal {
 
 export const GlobalStateContext = React.createContext<IGlobal>({globalData: {}, setGlobalData: ()=>{}});
 
-export const GlobalStateProvider = (props: {children: JSX.Element[]}) => {
+export const GlobalStateProvider = (props: {children: ReactNode}) => {
 
 	const [globalData, setGlobalData] = useState<{[key: string]: any}>({});
 
