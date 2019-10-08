@@ -9,6 +9,6 @@ interface IGlobal {
 }
 export declare const GlobalStateContext: React.Context<IGlobal>;
 export declare const GlobalStateProvider: (props: {
-    children: JSX.Element[];
+    children: React.ReactNode;
 }) => JSX.Element;
 export {};
