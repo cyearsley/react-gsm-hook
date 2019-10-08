@@ -1,9 +1,13 @@
 {
   "name": "react-gsm-hook",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Global state management (with namespaces :) and hooks)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/cyearsley/react-gsm-hook.git",
+    "type": "git"
+  },
   "scripts": {
     "prepare": "tsc"
   },
