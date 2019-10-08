@@ -1,0 +1,28 @@
+{
+  "name": "react-gsm-hook",
+  "version": "1.0.2",
+  "description": "Global state management (with namespaces :) and hooks)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "global",
+    "state",
+    "management",
+    "namespace"
+  ],
+  "author": "yhorm",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.5",
+    "react": "^16.10.2",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.10.2"
+  }
+}
